@@ -20,7 +20,7 @@ setup(
     download_url='https://github.com/bkanuka/trio-paho-mqtt/archive/v0.3.0.tar.gz',
     author_email='bkanuka@gmail.com',
     classifiers=[
-        'Development Status :: 4 - Alpha',
+        'Development Status :: 4 - Beta',
         'Framework :: Trio',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Intended Audience :: Developers',
