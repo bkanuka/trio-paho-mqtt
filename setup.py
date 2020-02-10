@@ -33,8 +33,7 @@ setup(
     ],
 
     keywords='trio mqtt',
-    package_dir={'': 'trio_paho_mqtt'},  # Optional
-    packages=find_packages(where='trio_paho_mqtt'),
+    packages=["trio_paho_mqtt"],
     python_requires='>=3.5, <4',
     install_requires=['paho-mqtt', 'trio'],
     project_urls={
