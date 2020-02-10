@@ -12,12 +12,12 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='trio-paho-mqtt',  # Required
-    version='0.3.0',  # Required
+    version='0.3.1',  # Required
     description='trio async MQTT Client',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/bkanuka/trio-paho-mqtt',
-    download_url='https://github.com/bkanuka/trio-paho-mqtt/archive/v0.3.0.tar.gz',
+    download_url='https://github.com/bkanuka/trio-paho-mqtt/archive/v0.3.1.tar.gz',
     author_email='bkanuka@gmail.com',
     classifiers=[
         'Development Status :: 4 - Beta',
