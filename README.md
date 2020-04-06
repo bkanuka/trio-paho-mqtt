@@ -45,3 +45,4 @@ async with trio.open_nursery() as nursery:
   - [aiomqtt](https://github.com/mossblaser/aiomqtt) - Uses asyncio and wraps paho, but still uses the loop from 
   paho-mqtt. I believe all operations are put into a worker thread.
   - [distmqtt](https://github.com/smurfix/distmqtt) - anyio-ified hbmqtt fork. Works with trio.
+  - [asyncio-mqtt](https://github.com/sbtinstruments/asyncio-mqtt) - Same idea as this lib (a light wrapper for paho mqtt), but for asyncio. 
