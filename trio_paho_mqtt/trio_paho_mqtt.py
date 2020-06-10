@@ -76,7 +76,7 @@ class AsyncClient:
         with cs:
             while True:
                 await self._event_large_write.wait()
-                await trio.hazmat.wait_writable(self.socket)
+                await trio.lowlevel.wait_writable(self.socket)
                 self._client.loop_write()
 
     def connect(self, host, port=1883, keepalive=60, bind_address="", bind_port=0, **kwargs):
