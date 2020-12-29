@@ -67,7 +67,7 @@ class AsyncClient:
         with cs:
             while True:
                 await self._event_should_read.wait()
-                await trio.hazmat.wait_readable(self.socket)
+                await trio.lowlevel.wait_readable(self.socket)
                 self._client.loop_read()
 
     async def _loop_write(self):
